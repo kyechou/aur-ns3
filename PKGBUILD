@@ -8,7 +8,7 @@ _cpycppyy_ver=1.12.12
 
 pkgname=ns3
 pkgver=3.40
-pkgrel=2
+pkgrel=3
 pkgdesc='Discrete-event network simulator for Internet systems'
 arch=('any')
 url='http://www.nsnam.org/'
@@ -30,8 +30,8 @@ depends=('python' 'dpdk'
          # ns-3-pyviz
          'goocanvas' 'python-gobject' 'python-cairo' 'python-pygraphviz'
          'ipython')
-makedepends=('cmake' 'python-build' 'python-installer' 'python-wheel'
-             'python-pip' 'git' 'mercurial'
+makedepends=('cmake' 'python-setuptools' 'python-build' 'python-installer'
+             'python-wheel' 'python-pip' 'git' 'mercurial'
              # documentation
              'doxygen' 'graphviz' 'imagemagick' 'python-sphinx' 'texlive-bin')
 optdepends=('uncrustify: utils/check-style.py style check program'
